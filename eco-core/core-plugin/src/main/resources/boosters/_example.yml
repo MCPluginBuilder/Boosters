@@ -26,7 +26,7 @@ bossbar:
   style: SOLID
 
 # The effects of the booster (i.e. the functionality)
-# See here: https://plugins.auxilor.io/effects/configuring-an-effect
+# See here: https://hub.auxilor.io/wiki/libreforge/configuring-an-effect
 effects:
   - id: sell_multiplier
     args:

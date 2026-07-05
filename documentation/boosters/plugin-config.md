@@ -61,7 +61,7 @@ gui:
       - "101101101"
       - "111111111"
 
-  custom-slots: [] # Optional extra slots, shown on every page; see https://plugins.auxilor.io/all-plugins/custom-gui-slots
+  custom-slots: [] # Optional extra slots, shown on every page; see https://hub.auxilor.io/wiki/eco/pages
 
 sounds:
   activate: # Played when a booster is activated

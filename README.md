@@ -16,7 +16,7 @@
     <a href="https://bstats.org/plugin/bukkit/EcoItems" alt="bstats players">
         <img src="https://img.shields.io/bstats/players/14269?color=yellow&style=for-the-badge"/>
     </a>
-    <a href="https://plugins.auxilor.io/boosters/" alt="Docs (gitbook)">
+    <a href="https://hub.auxilor.io/boosters/boosters" alt="Docs (gitbook)">
         <img src="https://img.shields.io/badge/docs-gitbook-yellow?style=for-the-badge&logo=appveyor"/>
     </a>
     <a href="https://discord.gg/ZcwpSsE/" alt="Discord">

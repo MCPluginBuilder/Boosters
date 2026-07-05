@@ -54,7 +54,7 @@ gui:
       - "101101101"
       - "111111111"
 
-  # Custom GUI slots, shared across all pages; see here: https://plugins.auxilor.io/all-plugins/custom-gui-slots
+  # Custom GUI slots, shared across all pages; see here: https://hub.auxilor.io/wiki/eco/pages#custom-gui-slots
   custom-slots: []
 
 sounds:

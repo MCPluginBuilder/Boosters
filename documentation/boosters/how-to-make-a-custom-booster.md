@@ -22,7 +22,7 @@ A **booster** is a buyable reward that, once activated, applies an effect to eve
 
 The **file name (without `.yml`) is the booster's ID**. So `sell_multiplier_1.5x.yml` has the ID `sell_multiplier_1.5x`.
 
-That ID is what you use in commands (`/boosters give <player> sell_multiplier_1.5x`) and in the [Item Lookup System](https://plugins.auxilor.io/the-item-lookup-system).
+That ID is what you use in commands (`/boosters give <player> sell_multiplier_1.5x`) and in the [Item Lookup System](https://hub.auxilor.io/wiki/eco/the-item-lookup-system-the-item-lookup-system).
 
 :::warning ID rules
 IDs may only contain **lowercase letters, numbers, and underscores** (`a-z`, `0-9`, `_`). No spaces, capitals, or hyphens, or the booster will not load.
@@ -133,8 +133,8 @@ conditions: [] # Conditions required for the effects to apply ([] = always)
 :::danger Effects are their own system
 Effects, conditions, filters, mutators, triggers, and chains are a shared eco system, not specific to Boosters, with hundreds of options. They are **not** documented here, so see the dedicated guides:
 
-- [Configuring an Effect](https://plugins.auxilor.io/effects/configuring-an-effect) is the full effect, trigger, and condition reference.
-- [Configuring an Effect Chain](https://plugins.auxilor.io/effects/configuring-a-chain) strings multiple effects under one trigger for advanced boosters.
+- [Configuring an Effect](https://hub.auxilor.io/wiki/libreforge/configuring-an-effect) is the full effect, trigger, and condition reference.
+- [Configuring an Effect Chain](https://hub.auxilor.io/wiki/libreforge/configuring-a-chain) strings multiple effects under one trigger for advanced boosters.
 :::
 
 ### GUI
@@ -181,5 +181,5 @@ These placeholders are provided by Boosters and can be used in this booster's me
 
 - **Default configs:** study the [bundled boosters](https://github.com/Auxilor/Boosters/tree/master/eco-core/core-plugin/src/main/resources/boosters) for real, working examples.
 - **Community configs:** browse user-created boosters on [lrcdb](https://lrcdb.auxilor.io/).
-- **Effects reference:** the [Configuring an Effect](https://plugins.auxilor.io/effects/configuring-an-effect) guide for everything the effects blocks can do.
+- **Effects reference:** the [Configuring an Effect](https://hub.auxilor.io/wiki/libreforge/configuring-an-effect) guide for everything the effects blocks can do.
 - **Commands:** [Commands and Permissions](commands-and-permissions) for giving, activating, and cancelling boosters.
