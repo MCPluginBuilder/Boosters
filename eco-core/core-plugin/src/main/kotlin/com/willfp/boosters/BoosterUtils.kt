@@ -75,16 +75,16 @@ val consoleName: String
         .getFormattedString("console-displayname")
         .formatEco(formatPlaceholders = false)
 
-val activateSound: PlayableSound?
+val activateSound
     get() = PlayableSound.create(plugin.configYml.getSubsection("sounds.activate"))
 
-val incrementSound: PlayableSound?
+val incrementSound
     get() = PlayableSound.create(plugin.configYml.getSubsection("sounds.increment"))
 
-val expireSound: PlayableSound?
+val expireSound
     get() = PlayableSound.create(plugin.configYml.getSubsection("sounds.expire"))
 
-val expiryWarningSound: PlayableSound?
+val expiryWarningSound
     get() = PlayableSound.create(plugin.configYml.getSubsection("sounds.expiry-warning"))
 
 val expiryWarningIntervals: List<Int>
